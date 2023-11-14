@@ -19,8 +19,8 @@ public class Exercises {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
-    @DataProvider(name = "generateSubtractionData")
-    public Object[][] generateSubtractionData() {
+    @DataProvider(name = "validateSubtractionData")
+    public Object[][] validateSubtractionData() {
         return new Object[][]{
                 {5, 3, 1},
                 {4, 2, -1}
@@ -76,7 +76,7 @@ public class Exercises {
         };
     }
 
-    @Test(dataProvider = "generateModulusData", groups = "modules")
+    @Test(dataProvider = "validateModulusData", groups = "modules")
     public void testModulus(int a, int b, int expectedResult) {
         try {
             int actualResult = a % b;
