@@ -76,6 +76,8 @@ public class Exercises {
         };
     }
 
+
+
     @Test(dataProvider = "validateModulusData", groups = "modules")
     public void testModulus(int a, int b, int expectedResult) {
         try {
