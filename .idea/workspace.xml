@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2478c7b4-8334-4e8b-83c4-02dd2c6cb891" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lecture10/examples/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssertionsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DependsOnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParallelSecondTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParallelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParametersTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PriorityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demoClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-parallel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-parameters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="2478c7b4-8334-4e8b-83c4-02dd2c6cb891" name="Changes" comment="lecture 10">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ChildClasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +44,11 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_directory_selection": "C:/Users/User/Desktop/Skillo/Testng/src/main/java/lecture10/examples",
+    "last_opened_file_path": "C:/Users/User/Desktop/Skillo/JavaProjectSkillo",
     "onboarding.tips.debug.path": "C:/Users/User/Desktop/Skillo/Testng/src/main/java/org/testng/automation/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
@@ -68,7 +57,7 @@
       <recent name="lecture10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/User/Desktop/Skillo/Testng/testng-parallel.xml">
+  <component name="RunManager" selected="TestNG.Exercises.testModulus">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Testng" />
       <method v="2">
@@ -82,11 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionsTests.testSoftAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercises.testModulus" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssertionsTests" />
-      <option name="METHOD_NAME" value="testSoftAssertions" />
+      <option name="MAIN_CLASS_NAME" value="Exercises" />
+      <option name="METHOD_NAME" value="testModulus" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,10 +83,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/User/Desktop/Skillo/Testng/testng-parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exercises.testSubtraction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-parallel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exercises" />
+      <option name="METHOD_NAME" value="testSubtraction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercises.testSumNumbers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exercises" />
+      <option name="METHOD_NAME" value="testSumNumbers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercises.testValidateDivision" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exercises" />
+      <option name="METHOD_NAME" value="testValidateDivision" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercises.testValidateMultiplication" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exercises" />
+      <option name="METHOD_NAME" value="testValidateMultiplication" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,36 +150,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="smoke" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="smoke" />
-      <option name="TEST_OBJECT" value="GROUP" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.regression" />
-      <item itemvalue="TestNG.AssertionsTests.testSoftAssertions" />
-      <item itemvalue="TestNG.C:/Users/User/Desktop/Skillo/Testng/testng-parallel.xml" />
-      <item itemvalue="TestNG.smoke" />
+      <item itemvalue="TestNG.Exercises.testModulus" />
+      <item itemvalue="TestNG.Exercises.testSubtraction" />
+      <item itemvalue="TestNG.Exercises.testSumNumbers" />
+      <item itemvalue="TestNG.Exercises.testValidateDivision" />
+      <item itemvalue="TestNG.Exercises.testValidateMultiplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/User/Desktop/Skillo/Testng/testng-parallel.xml" />
-        <item itemvalue="TestNG.AssertionsTests.testSoftAssertions" />
-        <item itemvalue="TestNG.smoke" />
+        <item itemvalue="TestNG.Exercises.testModulus" />
+        <item itemvalue="TestNG.Exercises.testValidateDivision" />
+        <item itemvalue="TestNG.Exercises.testValidateMultiplication" />
+        <item itemvalue="TestNG.Exercises.testSubtraction" />
+        <item itemvalue="TestNG.Exercises.testSumNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +177,31 @@
       <option name="presentableId" value="Default" />
       <updated>1699787020800</updated>
     </task>
+    <task id="LOCAL-00001" summary="lecture 10">
+      <option name="closed" value="true" />
+      <created>1699874969490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699874969491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lecture 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="lecture 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
