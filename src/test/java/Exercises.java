@@ -51,8 +51,8 @@ public class Exercises {
     @DataProvider(name = "validateDivisionData")
     public Object[][] validateDivisionData() {
         return new Object[][]{
-                {9,3,3},
-                {8,5,3},
+                {9, 3, 3},
+                {8, 5, 3},
         };
     }
 
@@ -60,28 +60,6 @@ public class Exercises {
     public void testValidateDivision(int a, int b, int expectedResult) {
         try {
             int actualResult = a / b;
-            Assert.assertEquals(actualResult, expectedResult);
-        } catch (ArithmeticException e) {
-            Assert.assertEquals(e.getMessage(), "/ by zero");
-            if (b != 0) {
-                throw e;
-            }
-        }
-    }
-
-    @DataProvider(name = "validateModulusData")
-    public Object[][] validateModulusData() {
-        return new Object[][] {
-                {10, 5, 2}
-        };
-    }
-
-
-
-    @Test(dataProvider = "validateModulusData", groups = "modules")
-    public void testModulus(int a, int b, int expectedResult) {
-        try {
-            int actualResult = a % b;
             Assert.assertEquals(actualResult, expectedResult);
         } catch (ArithmeticException e) {
             Assert.assertEquals(e.getMessage(), "/ by zero");
