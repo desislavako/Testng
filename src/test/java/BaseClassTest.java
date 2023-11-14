@@ -2,6 +2,7 @@
 import org.testng.annotations.*;
 
 public class BaseClassTest {
+
     @BeforeMethod
     public void beforeMethod() {
         System.out.println("Base Before Test method");

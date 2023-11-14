@@ -20,6 +20,6 @@ public class ParametersTests {
     @Parameters({"user-name"})
     @Test
     public void testOptionalParameter(@Optional("guest") String user) {
-        System.out.println("Welcome " + user);
+        System.out.println("Hello " + user);
     }
 }

@@ -52,5 +52,4 @@ public class demoClass {
     public void testAfterSuite() {
         System.out.println("I am executed AfterSuite");
     }
-
 }

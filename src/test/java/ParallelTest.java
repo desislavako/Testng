@@ -28,5 +28,4 @@ public class ParallelTest {
         long id = Thread.currentThread().getId();
         System.out.println("After test-method. Thread id is: " + id);
     }
-
 }

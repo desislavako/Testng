@@ -4,6 +4,7 @@ public class PriorityTest {
 
     @Test(priority = 0)
     public void testPrio3() {
+
         System.out.println("I am prio test 3.");
     }
 
@@ -14,6 +15,7 @@ public class PriorityTest {
 
     @Test(priority = 1)
     public void testPrio1() {
+
         System.out.println("I am prio test 1.");
     }
 }

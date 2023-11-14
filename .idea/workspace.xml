@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2478c7b4-8334-4e8b-83c4-02dd2c6cb891" name="Changes" comment="lecture 10">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ChildClasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProviderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AssertionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssertionsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChildClasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChildClasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DependsOnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DependsOnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParallelSecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParallelSecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParallelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParallelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParametersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParametersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PriorityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PriorityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +65,7 @@
       <recent name="lecture10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Exercises.testModulus">
+  <component name="RunManager" selected="TestNG.ProviderTest">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Testng" />
       <method v="2">
@@ -71,35 +79,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AssertionsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertionsTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsTests.testHardAssertions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertionsTests" />
+      <option name="METHOD_NAME" value="testHardAssertions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exercises.testModulus" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Exercises" />
       <option name="METHOD_NAME" value="testModulus" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercises.testSubtraction" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Exercises" />
-      <option name="METHOD_NAME" value="testSubtraction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercises.testSumNumbers" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Exercises" />
-      <option name="METHOD_NAME" value="testSumNumbers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,12 +126,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercises.testValidateMultiplication" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Exercises" />
-      <option name="METHOD_NAME" value="testValidateMultiplication" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="ProviderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.regression" />
+      <item itemvalue="TestNG.AssertionsTests" />
+      <item itemvalue="TestNG.AssertionsTests.testHardAssertions" />
       <item itemvalue="TestNG.Exercises.testModulus" />
-      <item itemvalue="TestNG.Exercises.testSubtraction" />
-      <item itemvalue="TestNG.Exercises.testSumNumbers" />
       <item itemvalue="TestNG.Exercises.testValidateDivision" />
-      <item itemvalue="TestNG.Exercises.testValidateMultiplication" />
+      <item itemvalue="TestNG.ProviderTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProviderTest" />
+        <item itemvalue="TestNG.AssertionsTests" />
+        <item itemvalue="TestNG.AssertionsTests.testHardAssertions" />
         <item itemvalue="TestNG.Exercises.testModulus" />
         <item itemvalue="TestNG.Exercises.testValidateDivision" />
-        <item itemvalue="TestNG.Exercises.testValidateMultiplication" />
-        <item itemvalue="TestNG.Exercises.testSubtraction" />
-        <item itemvalue="TestNG.Exercises.testSumNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +191,39 @@
       <option name="project" value="LOCAL" />
       <updated>1699874969491</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lecture 10">
+      <option name="closed" value="true" />
+      <created>1699995397345</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699995397346</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lecture 10">
+      <option name="closed" value="true" />
+      <created>1699995837513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699995837514</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lecture 10">
+      <option name="closed" value="true" />
+      <created>1699995960768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699995960768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lecture 10">
+      <option name="closed" value="true" />
+      <created>1699996067658</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699996067658</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

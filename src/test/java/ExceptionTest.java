@@ -22,7 +22,6 @@ public class ExceptionTest {
     public void testExceptions3() throws Exception {
         throw new IOException("Fail");
     }
-
     public static class BaseClassTest {
         @BeforeMethod
         public void beforeMethod() {

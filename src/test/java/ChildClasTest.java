@@ -26,4 +26,5 @@ public class ChildClasTest extends BaseClassTest {
     public void testName() {
         System.out.println("Test executed in Child Class");
     }
+
 }
